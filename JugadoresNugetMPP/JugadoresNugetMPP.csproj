@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Jugadores MPP XML</Title>
+    <Description>Nuget con Jugadores XML Assembly</Description>
+    <PackageTags>players;jugadores;marcos;mpp;miercoles</PackageTags>
+    <Authors>$(AssemblyName),players,jugadores,marcos,mpp,miercoles</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jugadores.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="jugadores.xml" />
+  </ItemGroup>
+
+</Project>

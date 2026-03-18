@@ -131,7 +131,8 @@
          <nombre>Gerardo Piqué Bernabeu</nombre>
          <posicion>Defensa central</posicion>
          <edad>28</edad>
-     </jugador>
+		 <imagen>https://as.com/futbol/imagenes/2017/06/27/mas_futbol/1498578431_883779_1498578525_noticia_normal.jpg</imagen>
+	 </jugador>
      <jugador>
          <numero>2</numero>
          <nombre>Mathieu</nombre>
